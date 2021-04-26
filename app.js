@@ -377,7 +377,7 @@ function deshabilitarFechaAnterior() {
 //     const fechasDeshabilitadas = `${dia}-${mes}-${year}`;
 
     
-    fechaInput.setAttribute('min', fechasDeshabilitadas);
+    fechaInput.setAttribute('min', fechaAhora);
 
     console.log(fechaInput);
 }
