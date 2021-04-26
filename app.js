@@ -369,12 +369,12 @@ function fechaCita() {
 function deshabilitarFechaAnterior() {
     const fechaInput = document.querySelector('#fecha');
 
-    const fechaAhora = new Date();
-    const year = fechaAhora.getFullYear();
-    const mes = fechaAhora.getMonth() + 1;
-    const dia = fechaAhora.getDate();
+    const fechaAhora = new Date().toISOSString().split("T")[0];
+//     const year = fechaAhora.getFullYear();
+//     const mes = fechaAhora.getMonth() + 1;
+//     const dia = fechaAhora.getDate();
 
-    const fechasDeshabilitadas = `${dia}-${mes}-${year}`;
+//     const fechasDeshabilitadas = `${dia}-${mes}-${year}`;
 
     
     fechaInput.setAttribute('min', fechasDeshabilitadas);
