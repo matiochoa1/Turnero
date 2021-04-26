@@ -362,7 +362,7 @@ body {
     grid-template-columns: repeat(2, 1fr); } }
 
 .contenedor-estetica .imagen {
-  background-image: url(Turnero/build/img/1.jpg);
+  background-image: url(img/1.jpg);
   background-size: cover;
   background-position: center;
   height: 30rem; }
