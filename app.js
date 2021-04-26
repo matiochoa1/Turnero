@@ -369,7 +369,7 @@ function fechaCita() {
 function deshabilitarFechaAnterior() {
     const fechaInput = document.querySelector('#fecha');
 
-    const fechaAhora = new Date().toISOSString().split("T")[0];
+    const fechaAhora = new Date().toISOString().split("T")[0];
 //     const year = fechaAhora.getFullYear();
 //     const mes = fechaAhora.getMonth() + 1;
 //     const dia = fechaAhora.getDate();
